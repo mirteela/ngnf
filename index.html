@@ -5,32 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Hello!</title>
+    <title>landing site!</title>
     
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css">
-    
+    <link rel="stylesheet" href="/homepage.css">
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
   </head>  
   <body>
-    <header>
-      <nav class="desktop">
-        <div class="logo">
-           <img src="https://cdn.glitch.com/64b3153a-4b15-4411-8fb7-da42915471eb%2FLogoMakr-6gxHUN.png?v=1612964968480" alt="logo" width="70" height="70">
-        </div>
-        
-        <div class="nav-links">
-          <a href="#" style="text-decoration : none">About us</a>
-          <a href="#" style="text-decoration : none">Features</a>
-        </div>
-        <div>
-          <button>
-            Log in
-          </button>
-        </div>
-        
-         <nav class="mobile">
+    
+    
+    <nav class="desktop">
+      <div>
+        <img src="https://cdn.glitch.com/64b3153a-4b15-4411-8fb7-da42915471eb%2FLogoMakr-6gxHUN.png?v=1612964968480" alt="logo" width="70" height="70">
+      </div>
+      
+      <div class="nav-links">
+        <a href="/#features" style="text-decoration : none">Features</a>
+        <a href="/about.html" style="text-decoration : none">About</a>
+        <a href="/in-progress.html">Get Started</a>
+      </div>
+      
+      <div>
+        <button>
+           Log in
+        </button>
+      </div>
+    </nav>
+    
+    <nav class="mobile">
       <button class="menu-button" onclick="toggleMenu()"> MENU </button>
       
       <div class="nav-links hidden" id="mobile-menu">
@@ -38,18 +42,104 @@
         <button class="close-menu" onclick="toggleMenu()">
           X
         </button>
-        <a href="#features">About us</a>
-        <a href="/about.html">Features</a>
+        <a href="#features">Features</a>
+        <a href="/about.html">About</a>
+        <a href="in-progress.html">Get Started</a>
       </div>
     </nav>
+    
+    <header>
+      <div class="left">
+        <h1>
+          Best app ever!
+        </h1>
+        <p>
+          Firebase is a backend-as-service (Bass) platform for creating mobile and web applications. 
+          In this quest you will learn to build serverless web apps, import data into a serverless database, 
+          and build a Google Assistant application with Firebase and its Google Cloud integrations.
+        </p>
+        <div>
+          <button>
+            <a href="/in-progress.html">Get Started</a>
+          </button>
+          <button>
+            <a href="/#contact">Contact Us</a>
+          </button>
+        </div>
+        
+      </div>
       
-    </nav>
+      <div class="right">
+        
+  
+      </div>
     </header>
     
+    <main>
+      <section id="features">
+        <h2>Features</h2>
+        
+        <div class="feature-container">
+          <div class="feature-card">
+            <img alt="App feature">
+            <h3> Feature name</h3>
+            <p>
+              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+              The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, 
+              content here', making it look like readable English
+            </p>
+          </div>
+          
+          <div class="feature-card">
+            <img  alt="App feature">
+            <h3> Feature name</h3>
+            <p>
+              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+              The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, 
+              content here', making it look like readable English
+            </p>
+          </div>
+          
+          <div class="feature-card">
+            <img alt="https://cdn.glitch.com/64e92c86-59ee-42d2-abcc-98e1900f9cdc%2Fpatrik.jfif?v=1611584374261">
+            <h3> Feature name</h3>
+            <p>
+              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+              The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, 
+              content here', making it look like readable English
+            </p>
+          </div>
+          
+        </div>
+      </section>
+      
+      <section id="contact">
+        
+        <h2>Contact Us</h2>
+        <form>
+          <label for="email">Your email</label>
+          <input type="email" name="email" id="email">
     
+          <label for="message">Your Message</label>
+          <textarea id="message" rows="5"></textarea>
+          
+          <input type="submit" value="Send">
+        </form>
+      
+      </section>
+      
+      </main>
+ 
     
+    <footer>
+      <div>
+        <a href="/index.html">Home</a>
+        <a href="/#features">Features</a>
+        <a href="/pricing.html">Pricing</a>
+        <a href="/about.html">About</a>
+        <a href="/in-progress.html">Get Started</a>
+      </div>
+    </footer>
     
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js" defer></script>
   </body>
 </html>

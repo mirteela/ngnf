@@ -1,37 +1,29 @@
-/* CSS files add styling rules to your content */
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  color: #343434;
-  margin: 0;
-  padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
-}
-
-h1 {
-  font-style: italic;
-  color: #373fff;
-}
-
-h2 {
-  text-align: center;
-  font-family: 'Caveat', cursive;
-  font-weight: 400;
-  margin: 0;
-}
 
 nav.desktop {
   display: flex;
   justify-content: space-between;
-  background-color: #4CAF50;
-  padding: 40px 20px;
+  align-items: center;
+  background-color: #ffb627;
+  padding: 10px 40px ;
   margin: 0 0;
 }
+
+nav.desktop .nav-links a{
+  margin: 0 10px;
+}
+
+h1{
+  font: bold;
+}
+a{
+  color: black;
+  font-size:20px;
+}
+a:hover {
+  color: #FFE66D;
+}
+
+
 
 nav.mobile {
   display: none;
@@ -62,12 +54,13 @@ nav.mobile .nav-links.hidden {
   transform: translateX(-20px);
   pointer-events: none;
 }
-button {
 
-  background-color: #4CAF50; /* Green */
+button {
+  background-color: #ff9505; 
   border: none;
   color: #F7FFF7;
-  border-radius: 8px;
+  font-size: 15px;
+  border-radius: 20px;
   padding: 10px 10px;
   text-align: center;
 }
@@ -77,6 +70,7 @@ a {
 }
 
 a:hover {
+  text-decoration: none;
   color: #FFE66D;
 }
 
@@ -98,15 +92,9 @@ footer a {
 }
 
 
-/* Responsive
-------------------------------------*/
-@media (max-width: 600px){
-  nav.desktop{
-    display:none;
-  }
-  nav.mobile{
-    display:block;
-  }
-  
-}
+
+
+
+
+
 

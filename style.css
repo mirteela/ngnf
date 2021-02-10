@@ -1,7 +1,14 @@
-header{
-  background-color: #ffd100;
-  
-}
+
+
 .logo{
   margin: 10px 30px;
+}
+
+nav.desktop {
+  display: flex;
+  justify-content: space-between
+  align-itemns.
+  background-color: #ffb627;
+  padding: 40px 20px;
+  margin: 0 0;
 }

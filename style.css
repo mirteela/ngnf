@@ -55,6 +55,42 @@ nav.mobile .nav-links.hidden {
   pointer-events: none;
 }
 
+button {
+  background-color: #ff9505; 
+  border: none;
+  color: #F7FFF7;
+  font-size: 15px;
+  border-radius: 20px;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #FFE66D;
+}
+
+.close-menu{
+  align-self: flex-end;
+}
+
+footer {
+  padding: 40px;
+  background: #333;
+  margin-top: 40px;
+  text-align: center;
+  
+}
+
+footer a {
+  color: white;
+  margin: 0 10px;
+}
+
 
 @media (max-width: 600px){
   nav.desktop{

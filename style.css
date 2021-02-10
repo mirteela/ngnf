@@ -14,7 +14,7 @@ body {
 }
 
 button {
-  background-color: #ff9505; 
+  background-color: #FED8B1; 
   border: none;
   color: #white;
   font-size: 15px;
@@ -27,7 +27,6 @@ nav.desktop {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffb627;
   padding: 10px 40px ;
   margin: 0 0;
 }
@@ -83,6 +82,12 @@ nav.mobile .nav-links.hidden {
 .close-menu{
   align-self: flex-end;
 }
+
+
+.big{
+  padding: 40px 10px;
+}
+
 
 footer {
   padding: 40px;

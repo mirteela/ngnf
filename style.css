@@ -9,5 +9,60 @@ nav.desktop {
 }
 
 nav.desktop .nav-links a{
-  margin: 0 30px;
+  margin: 0 10px;
 }
+
+h1{
+  font: bold;
+}
+a{
+  color: black;
+  font-size:20px;
+}
+a:hover {
+  color: #FFE66D;
+}
+
+
+
+nav.mobile {
+  display: none;
+}
+
+nav.mobile .nav-links{
+  display: flex;
+  flex-direction: column;
+  background: #eee;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 20px 40px;
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+nav.desktop .nav-links a {
+  margin: 0 10px;
+}
+
+nav.mobile .nav-links a {
+  margin: 10px 0;
+}
+
+nav.mobile .nav-links.hidden {
+  opacity: 0;
+  transform: translateX(-20px);
+  pointer-events: none;
+}
+
+
+@media (max-width: 600px){
+  nav.desktop{
+    display:none;
+  }
+  nav.mobile{
+    display:block;
+  }
+  
+}
+

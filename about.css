@@ -12,9 +12,7 @@ nav.desktop .nav-links a{
   margin: 0 10px;
 }
 
-h1{
-  font: bold;
-}
+
 a{
   color: black;
   font-size:20px;
@@ -41,42 +39,7 @@ nav.mobile .nav-links{
   transition: opacity 0.5s, transform 0.5s;
 }
 
-nav.desktop .nav-links a {
-  margin: 0 10px;
-}
 
-nav.mobile .nav-links a {
-  margin: 10px 0;
-}
-
-nav.mobile .nav-links.hidden {
-  opacity: 0;
-  transform: translateX(-20px);
-  pointer-events: none;
-}
-
-button {
-  background-color: #ff9505; 
-  border: none;
-  color: #F7FFF7;
-  font-size: 15px;
-  border-radius: 20px;
-  padding: 10px 10px;
-  text-align: center;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #FFE66D;
-}
-
-.close-menu{
-  align-self: flex-end;
-}
 
 footer {
   padding: 40px;

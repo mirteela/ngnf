@@ -1,14 +1,9 @@
 
-
-.logo{
-  margin: 10px 30px;
-}
-
 nav.desktop {
   display: flex;
-  justify-content: space-between
-  align-itemns.
+  justify-content: space-between;
+  align-items: center;
   background-color: #ffb627;
-  padding: 40px 20px;
+  padding: 10px 40px ;
   margin: 0 0;
 }

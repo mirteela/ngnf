@@ -89,6 +89,7 @@ nav.mobile .nav-links.hidden {
   padding: 40px 10px;
 }
 
+
 .container{
   display: flex;
   flex-direction: row;
@@ -96,40 +97,24 @@ nav.mobile .nav-links.hidden {
   justify-content: center;
   justify-content: space-evenly;
   align-items: center ;
+  padding: 100px 10px;
   
 }
 
-.box1{
+.box{
   border-style:solid;
   border-colour: black;
   border-width: 3px;
   text-align: center;
+  width: 300px;
 }
 
-.box2{
-border-style:solid;
-  border-colour: black;
-  border-width: 3px;
-  text-align: center;
-  
-}
-
-.box3{
-  border-style:solid;
-  border-colour: black;
-  border-width: 3px;
-  text-align: center;
-}
+.third-block
 
 
 
 
-
-
-
-
-
-footer {
+.footah{
   padding: 40px;
   background: #333;
   margin-top: 40px;

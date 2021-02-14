@@ -24,7 +24,7 @@ button {
 }
 
 
-nav.desktop {
+.nav-links{
   display: flex;
   justify-content: space-between;
   align-items: center;

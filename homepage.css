@@ -51,3 +51,21 @@
 .footah{
   padding-bottom: 0px;
 }
+
+.right{
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+
+
+
+@media (max-width: 600px){
+  .first-block {
+    flex-direction: column-reverse;
+    margin: 30px 0;
+  }
+}

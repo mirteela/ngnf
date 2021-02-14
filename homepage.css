@@ -9,7 +9,14 @@
 }
 .second-block{
   padding: 50px 10px;
+    background-color: #FED8B1;
 }
+
+.third-block{
+  text-align: center;
+  padding: 80px 10px 100px 10px;
+}
+
 
 .fourth-block{
   background-color: #FED8B1;
@@ -34,16 +41,13 @@
   height: 200px;
 }
 
-.third-block{
-  text-align: center;
-  padding: 80px 10px 100px 10px;
-}
+
 
 .box-text{
   text-align: center;
   padding: 10px;
 }
 
-.second-block{
-  background-color: #FED8B1;
+.footah{
+  padding-bottom: 0px;
 }

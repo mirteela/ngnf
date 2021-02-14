@@ -4,9 +4,15 @@
 }
 
 
-
+.first-block{
+  padding: 50px 10px;
+}
 .second-block{
-  padding: 100px 10px;
+  padding: 50px 10px;
+}
+
+.fourth-block{
+  background-color: #FED8B1;
 }
 
 .container{
@@ -30,10 +36,14 @@
 
 .third-block{
   text-align: center;
-  padding: 20px 10px 100px 10px;
+  padding: 80px 10px 100px 10px;
 }
 
 .box-text{
   text-align: center;
   padding: 10px;
+}
+
+.second-block{
+  background-color: #FED8B1;
 }

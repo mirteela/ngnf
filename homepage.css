@@ -1,0 +1,39 @@
+
+.big{
+  padding: 40px 10px;
+}
+
+
+
+.second-block{
+  padding: 100px 10px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center ;
+  
+}
+
+.box{
+  border-style:solid;
+  border-colour: black;
+  border-width: 3px;
+  text-align: center;
+  width: 250px;
+  height: 200px;
+}
+
+.third-block{
+  text-align: center;
+  padding: 20px 10px 100px 10px;
+}
+
+.box-text{
+  text-align: center;
+  padding: 10px;
+}
